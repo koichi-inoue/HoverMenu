@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+	line-height: 100%;
+  list-style-type: none;
+  text-decoration: none;
+	font-weight: lighter;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  margin: auto;
+  position: relative;
+  width: 70%;
+  min-width: 768px;
+  background-color: #F5F5F5;
+}
+
+header {
+  height: 2rem;
+  padding: 3rem;
+  background-color: #AAA;
+}
+
+header h1 {
+	color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  position: relative;
+  background-color: #555;
+  z-index: 999;
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+}
+
+.mainMenu {
+  display: flex;
+  flex-direction: row;
+	justify-content: space-around;
+}
+
+.mainMenu li {
+  position: relative;
+	flex: 1;
+  text-align: center;
+}
+
+.mainMenu li a{
+  display: block;
+  padding: 1rem;
+  color: white;
+}
+
+.mainMenu li a:hover{
+  color: #0080FF;
+  background-color: white;
+}
+
+.mainMenu li:hover .subMenu{
+  visibility: visible;
+  opacity: 1;
+}
+
+.subMenu{
+  position: absolute;
+  top: 3rem;
+  left: 0px;
+	width: 100%;
+  background-color: rgba(256,256,256,1.0);
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+}
+
+.subMenu li{
+  border-top: 1px dotted silver;
+}
+
+.subMenu li a{
+  display: block;
+  padding-left: 20px;
+	color: #333;
+}
+
+.subMenu li a:hover {
+  background-color: #555;
+}
+
+article {
+	padding: 3rem;
+}
+
+article p {
+  line-height: 180%;
+}
+
+article h1{
+  margin-bottom: 1rem;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #AAA;
+	color: white;
+}
