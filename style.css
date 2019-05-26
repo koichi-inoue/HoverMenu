@@ -1,10 +1,10 @@
 * {
   margin: 0px;
   padding: 0px;
-	line-height: 100%;
+  line-height: 100%;
   list-style-type: none;
   text-decoration: none;
-	font-weight: lighter;
+  font-weight: lighter;
 }
 
 body {
@@ -26,7 +26,7 @@ header {
 }
 
 header h1 {
-	color: white;
+  color: white;
 }
 
 main {
@@ -44,12 +44,12 @@ nav {
 .mainMenu {
   display: flex;
   flex-direction: row;
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .mainMenu li {
   position: relative;
-	flex: 1;
+  flex: 1;
   text-align: center;
 }
 
@@ -73,7 +73,7 @@ nav {
   position: absolute;
   top: 3rem;
   left: 0px;
-	width: 100%;
+  width: 100%;
   background-color: rgba(256,256,256,1.0);
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
   visibility: hidden;
@@ -88,7 +88,7 @@ nav {
 .subMenu li a{
   display: block;
   padding-left: 20px;
-	color: #333;
+  color: #333;
 }
 
 .subMenu li a:hover {
@@ -96,7 +96,7 @@ nav {
 }
 
 article {
-	padding: 3rem;
+  padding: 3rem;
 }
 
 article p {
@@ -111,5 +111,5 @@ footer {
   padding: 2rem;
   text-align: center;
   background-color: #AAA;
-	color: white;
+  color: white;
 }
