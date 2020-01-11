@@ -41,35 +41,35 @@ nav {
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
 }
 
-.mainMenu {
+.menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.mainMenu li {
+.menu li {
   position: relative;
   flex: 1;
   text-align: center;
 }
 
-.mainMenu li a{
+.menu a{
   display: block;
   padding: 1rem;
   color: white;
 }
 
-.mainMenu li a:hover{
+.menu a:hover{
   color: #0080FF;
   background-color: white;
 }
 
-.mainMenu li:hover .subMenu{
+.menu li:hover .menu-child{
   visibility: visible;
   opacity: 1;
 }
 
-.subMenu{
+.menu-child {
   position: absolute;
   top: 3rem;
   left: 0px;
@@ -81,17 +81,17 @@ nav {
   transition: .5s;
 }
 
-.subMenu li{
+.menu-child li {
   border-top: 1px dotted silver;
 }
 
-.subMenu li a{
+.menu-child a{
   display: block;
   padding-left: 20px;
   color: #333;
 }
 
-.subMenu li a:hover {
+.menu-child a:hover {
   background-color: #555;
 }
 
