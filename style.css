@@ -36,7 +36,6 @@ main {
 
 nav {
   position: relative;
-  background-color: #555;
   z-index: 999;
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
 }
@@ -51,20 +50,21 @@ nav {
   position: relative;
   flex: 1;
   text-align: center;
+  background-color: #555;
 }
 
-.menu a{
+.menu a {
   display: block;
   padding: 1rem;
   color: white;
 }
 
-.menu a:hover{
+.menu a:hover {
   color: #0080FF;
   background-color: white;
 }
 
-.menu li:hover .menu-child{
+.menu li:hover .menu-child {
   visibility: visible;
   opacity: 1;
 }
@@ -74,7 +74,6 @@ nav {
   top: 3rem;
   left: 0px;
   width: 100%;
-  background-color: rgba(256,256,256,1.0);
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
   visibility: hidden;
   opacity: 0;
@@ -85,16 +84,6 @@ nav {
   border-top: 1px dotted silver;
 }
 
-.menu-child a{
-  display: block;
-  padding-left: 20px;
-  color: #333;
-}
-
-.menu-child a:hover {
-  background-color: #555;
-}
-
 article {
   padding: 3rem;
 }
@@ -103,7 +92,7 @@ article p {
   line-height: 180%;
 }
 
-article h1{
+article h1 {
   margin-bottom: 1rem;
 }
 
