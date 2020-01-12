@@ -29,11 +29,6 @@ header h1 {
   color: white;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
-
 nav {
   position: relative;
   z-index: 999;
@@ -53,18 +48,18 @@ nav {
   background-color: #555;
 }
 
-.menu a {
+.menu a{
   display: block;
   padding: 1rem;
   color: white;
 }
 
-.menu a:hover {
+.menu a:hover{
   color: #0080FF;
   background-color: white;
 }
 
-.menu li:hover .menu-child {
+.menu li:hover .menu-child{
   visibility: visible;
   opacity: 1;
 }
@@ -92,7 +87,7 @@ article p {
   line-height: 180%;
 }
 
-article h1 {
+article h1{
   margin-bottom: 1rem;
 }
 
